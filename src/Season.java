@@ -25,4 +25,9 @@ public enum Season {
     public static Season[] getValues(){
         return values();
     }
+
+    @Override
+    public String toString() {
+        return  description ;
+    }
 }
