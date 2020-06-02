@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Utilities {
 
     public static String readFromUser(){
+        System.out.println("Type your season:");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
